@@ -1,0 +1,92 @@
+:root {
+  /* Brand Palette - Deep Agricultural & Modern Emerald */
+  --primary-900: #082618;
+  --primary-800: #0d3824;
+  --primary-700: #134e32;
+  --primary-600: #1a6b45;
+  --primary-500: #10b981;
+  --primary-400: #34d399;
+  --primary-300: #6ee7b7;
+  --primary-200: #a7f3d0;
+  --primary-100: #d1fae5;
+  --primary-50:  #ecfdf5;
+
+  /* Accent & Complementary */
+  --accent-gold: #f59e0b;
+  --accent-gold-light: #fef3c7;
+  --accent-amber: #d97706;
+  --accent-blue: #0284c7;
+  --accent-blue-light: #e0f2fe;
+  --accent-crimson: #ef4444;
+  --accent-crimson-light: #fee2e2;
+
+  /* Dark Navy / Charcoal */
+  --navy-950: #06120d;
+  --navy-900: #091e15;
+  --navy-800: #0f2d21;
+  --navy-700: #163d2e;
+
+  /* Neutrals (Light Mode) */
+  --bg-main: #f8faf8;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #ffffff;
+  --bg-card: #ffffff;
+  --bg-subtle: #f0f5f1;
+  --bg-cream: #faf8f3;
+
+  --text-main: #111827;
+  --text-muted: #4b5563;
+  --text-subtle: #6b7280;
+  --text-inverse: #ffffff;
+
+  --border-light: #e5ede7;
+  --border-subtle: #f0f4f1;
+  --border-focus: #10b981;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(16, 185, 129, 0.05);
+  --shadow-sm: 0 2px 6px -1px rgba(15, 56, 36, 0.08), 0 2px 4px -2px rgba(15, 56, 36, 0.04);
+  --shadow-md: 0 8px 20px -3px rgba(15, 56, 36, 0.1), 0 4px 8px -3px rgba(15, 56, 36, 0.06);
+  --shadow-lg: 0 16px 36px -4px rgba(15, 56, 36, 0.14), 0 8px 16px -4px rgba(15, 56, 36, 0.08);
+  --shadow-glow: 0 0 25px rgba(16, 185, 129, 0.35);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Typography */
+  --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+[data-theme="dark"] {
+  --bg-main: #06120d;
+  --bg-surface: #0a1f16;
+  --bg-surface-elevated: #0f2c20;
+  --bg-card: #0c251b;
+  --bg-subtle: #113425;
+  --bg-cream: #091c14;
+
+  --text-main: #f3f7f4;
+  --text-muted: #94a3b8;
+  --text-subtle: #64748b;
+  --text-inverse: #06120d;
+
+  --border-light: #184432;
+  --border-subtle: #123325;
+  --border-focus: #34d399;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.65);
+  --shadow-glow: 0 0 30px rgba(52, 211, 153, 0.25);
+}
